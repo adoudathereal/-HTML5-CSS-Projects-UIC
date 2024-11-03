@@ -1,0 +1,63 @@
+body { color:white;
+    font-family:Arial, fallback, sans-serif;
+     background-color:#d8d5d9 ;
+      margin: 20px;}
+      
+.main-title {font-size: 2.5em;color:#d9534f ;
+     text-transform: uppercase;
+     letter-spacing:2px;}
+
+header {text-align: center;
+        margin-bottom: 40px; 
+    background-image:url('dessert.jpeg'); }
+
+.intro-section {background-color:#eaeaea ;
+padding: 20px;
+border-radius: 10px;
+}
+
+.intro-text {font-size: 1.2em;
+text-align: justify;
+ color: #555;
+}
+
+h2 {font-size: 2em;
+color:#5bc0de ;
+border-bottom:2px solid #5bc0de ;}
+
+.dish-discription {font-size: 1.1em;
+text-align: justify;
+margin: 20px;}
+
+.image-left {float: left;
+margin-right: 20px;
+width: 250px;;
+border: 3px solid #d9534f;
+border-radius: 10px}
+
+.image-right {float: right;
+margin-left: 20px;
+width: 250px;
+border: 3px solid #5bc0de;
+border-radius: 10px}
+
+.highlight-section {background-color: #f9f9f9;
+padding: 20px;
+border-left: 5px solid #d9534f;
+margin-top: 40px;}
+
+.highlight-text {font-style: italic;
+    color: #333}
+
+.footer {text-align: center;
+         margin-top: 50px;
+        padding-top: 20px;
+        border-top: 2px solid #ccc}
+
+.footer-text {font-size: 1em;
+    color:#555}
+#introduction  {border: 2px solid #5bc0de;
+    box-shadow: 20px 8px 8px rgba(0, 0, 0, 0.2)}  
+
+    
+

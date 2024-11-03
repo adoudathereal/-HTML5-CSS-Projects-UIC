@@ -1,0 +1,36 @@
+.flex-cont {
+  display: flex;
+  background-color: bisque;
+  flex-direction: row;         /* Aligns items in a row */
+  justify-content: space-between; /* Space between items in the first row */
+  flex-wrap: wrap;            /* Allows items to wrap onto new lines */
+  height: 150px;              /* Adjust height as needed */
+  gap: 5px;                   /* Adds spacing between items */
+  border: 5px solid red;      /* Visual border for the container */
+}
+
+.item {
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 5px;                /* Adds margin around each item */
+  background-color: rgb(99, 188, 141);
+  text-align: center;         /* Center text within each item */
+  flex: 1 0 20%;              /* Allow items to grow and take up space, adjust this if needed */
+}
+
+.Mechoui {
+  border: 5px solid black;
+  border-radius: 5px;
+  width: 150px;               /* Set a specific width for Mechoui */
+  text-align: center;         /* Center the text */
+  background-color: rgb(99, 188, 141); /* Same background color for consistency */
+  margin: 5px;               /* Add margin for spacing */
+  flex: 0 0 70%;            /* Prevent it from growing or shrinking */
+}
+
+/* Add a wrapper to center Mechoui */
+.flex-cont .row {
+  display: flex;
+  justify-content: center;     /* Center the row items */
+  width: 100%;                 /* Make sure the row takes full width */
+}
