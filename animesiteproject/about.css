@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #f4a261;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0,7s ease-in-out;
+}
+
+.navbar .nav-item a:hover {
+    background-color: #e76f51;
+    color: black;
+}
+
+header {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 2em 1em;
+    border-bottom: 5px solid #2a9d8f;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #e76f51;
+    margin-bottom: 1em;
+}
+
+section p {
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+section a {
+    color: #264653;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+section a:hover {
+    color: #e76f51;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #264653;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 2em;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+    <link rel="stylesheet" href="recommandation.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-item"><a href="hub.html">Home</a></div>
+            <div class="nav-item"><a href="anime-list.html">Anime List</a></div>
+            <div class="nav-item"><a href="genres.html">Genres</a></div>
+            <div class="nav-item"><a href="recommendations.html">Recommendations</a></div>
+            <div class="nav-item"><a href="about.html">About</a></div>
+        </nav>
+
+        <h1>Anime Recommendations</h1>
+        <p>Discover handpicked anime tailored to your preferences.</p>
+    </header>
+    
+    <section>
+        <h2>Find Your Perfect Anime</h2>
+        
+        <!-- Select Country -->
+        <label for="country">Select Your Country:</label>
+        <select name="country" id="country" title="Select your country">
+            <option value="morocco">Morocco</option>
+            <option value="france">France</option>
+            <option value="belgium">Belgium</option>
+            <option value="uk">UK</option>
+            <option value="italy">Italy</option>
+            <option value="germany">Germany</option>
+            <option value="spain">Spain</option>
+            <option value="turkey">Turkey</option>
+            <option value="japan">Japan</option>
+            <option value="thailand">thailand</option>
+            <option value="indonesia">indonesia</option>
+            <option value="vietnam">vietnam</option>
+            <option value="china">china</option>
+            <option value="south-korea">south-korea</option>
+            <option value="india">india</option>
+            <option value="philippines">philippines</option>
+            <option value="pakistan">pakistan</option>
+            <option value="bangladesh">bangladesh</option>
+            <option value="myanmar">myanmar</option>
+            <option value="nepal">nepal</option>
+            <option value="bhutan">bhutan</option>
+            <option value="laos">laos</option>
+            <option value="taiwan">taiwan</option>
+            <option value="malaysia">malaysia</option>
+            <option value="singapore">singapore</option>
+            <option value="brunei">brunei</option>
+            <option value="maldives">maldives</option>
+            <option value="qatar">qatar</option>
+            <option value="oman">oman</option>
+            <option value="jordan">jordan</option>
+            <option value="kuwait">kuwait</option>
+            <option value="bahrain">bahrain</option>
+        </select>
+        
+        <br><br>
+
+     
+        <fieldset>
+            <legend>Gender:</legend>
+            <label>
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+        </fieldset>
+        <br>
+
+       
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname" placeholder="Write your First Name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Write your Email">
+        <br><br>
+
+       
+        <form action="#" method="POST">
+            <label for="genre">Preferred Genre:</label>
+            <select id="genre" name="genre">
+                <option value="action">Action</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="adventure">Adventure</option>
+                <option value="romance">Romance</option>
+                <option value="mystery">Mystery</option>
+                <option value="horror">Horror</option>
+                <option value="sci-fi">Sci-Fi</option>
+                <option value="thriller">Thriller</option>
+                <option value="drama">Drama</option>
+                <option value="slice-of-life">Slice of Life</option>
+                <option value="ecchi">Ecchi</option>
+                <option value="shoujo">Shoujo</option>
+                <option value="shoujoai">Shoujoai</option>
+                <option value="shounen">Shounen</option>
+                <option value="shounenai">Shounenai</option>
+                <option value="seinen">Seinen</option>
+                <option value="josei">Josei</option>
+                <option value="yaoi">Yaoi</option>
+                <option value="yuri">Yuri</option>
+                
+            </select>
+            <br><br>
+    
+            <label for="rating">Minimum Rating (1-10):</label>
+            <input type="number" id="rating" name="rating" min="1" max="10">
+            <br><br>
+    
+            <input type="submit" value="Get Recommendations">
+        </form>
+    </section>
+</body>
+</html>
