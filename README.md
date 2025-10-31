@@ -1,6 +1,6 @@
 # HTML5 & CSS Projects - UIC
 
-Welcome to the **HTML5 and CSS Projects** repository! This repository contains various web development projects created as part of my studies at **Université Internationale de Casablanca (UIC)**.
+Welcome to the **HTML5 , CSS and C Projects** repository! This repository contains various web development projects created as part of my studies at **Université Internationale de Casablanca (UIC)**.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the **HTML5 and CSS Projects** repository! This repository contains v
 
 ## About
 
-This repository showcases my work in **HTML5** and **CSS**, focusing on building responsive and visually appealing web pages. Each project is an opportunity to apply theoretical knowledge in practical scenarios, enhancing my skills in web development.
+This repository showcases my work in **HTML5**, **CSS**, and **C**, focusing on building responsive and visually appealing web pages. Each project is an opportunity to apply theoretical knowledge in practical scenarios, enhancing my skills in web development.
 
 The goal of this repository is to:
 - Share all the HTML5 and CSS projects I develop as part of my studies.
@@ -47,6 +47,7 @@ This repository contains individual folders for each project, with the following
 
 - **HTML files**: The main structure of the webpage.
 - **CSS files**: Styling for the webpage.
+- **C** files**:  contain the actual C code, including function definitions, variable declarations, and program logic
 - **Assets**: Images, fonts, or other assets used in the projects.
 
 These projects cover different aspects of web design, including:
