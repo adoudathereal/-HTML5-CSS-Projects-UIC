@@ -1,4 +1,4 @@
-# HTML5, CSS, and c Projects - UIC
+# HTML5, CSS, and C Projects - UIC
 
 Welcome to the **HTML5, CSS, and C Projects** repository! This repository contains various web development projects created as part of my studies at **Université Internationale de Casablanca (UIC)**.
 
